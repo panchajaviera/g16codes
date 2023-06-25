@@ -90,7 +90,7 @@ at_symbol[69]="Bi"
       print "%chk=scan.chk"
       print "%nproc=8"
       print "%mem=12GB"
-      print "#p B3LYP/gen EmpiricalDispersion=GD3BJ pop=nboread nosymm IOp(6/80=1) "
+      print "#p B3LYP/gen EmpiricalDispersion=GD3BJ pop=nboread nosymm IOp(6/80=1) " # Since here we're using a basis set not added in G16 library, then you need to add all the data needed for every element
 #     print "# mp2/cc-pVTZ pop=nboread"
        print " "
 #  Etiqueta o titulo "cambiar el ATM y FOR-REV según corresponda" 
@@ -102,7 +102,7 @@ at_symbol[69]="Bi"
         print at_symbol[at[k]]," " , x[k]," ", y[k]," ", z[k], " "
 }
  {
-       print " "
+       print " " #In order to have all the data from the new basis set, you have to add every single line like this
        print "H     0" 
        print "S    5   1.00" 
         print  "3.387000D+01           6.068000D-03" 
