@@ -1,9 +1,7 @@
-#Modificado por Fran el 7 de octubre,2021
-
-# Para correr el programa:
-# $ awk -f script.awk <archivo_de_entrada> archivo_de_salida
-# Archivo para extraer datos de energias, orbitales moleculares frontera proveniente de Single Point
-
+# written on awk program language
+# Archivo para extraer datos de energias, orbitales moleculares frontera proveniente de sp_generator o sp_generator counterpoise by vcnt@qtc.cl
+# Modified by fjbenitez@uc.cl
+#
 BEGIN{K=1}
 
 {
