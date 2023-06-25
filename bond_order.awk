@@ -1,7 +1,7 @@
-#Modificado por Fran el 19 de octubre de 2021
-
-#Archivo para extraer datos de NBO proveniente de calculos Single Point
-#CUIDADO!: SI SE EMPLEO NOSYMM, ENTONCES SE DEBE CAMBIAR Standard orientation por Input orientation
+# written on awk program language
+# Archivo para extraer datos de NBO proveniente de sp_generator by vcnt@qtc.cl
+# CUIDADO!: SI SE EMPLEO NOSYMM, ENTONCES SE DEBE CAMBIAR Standard orientation por Input orientation
+# Modified by fjbenitez@uc.cl
 
 {
 
