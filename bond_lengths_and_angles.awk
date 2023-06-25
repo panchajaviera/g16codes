@@ -1,5 +1,7 @@
-#Archivo para obtener datos estructurales
-# Hecho por Fran el 19 de enero, 2022
+# written on awk program language
+# File to obtain structural data from sp_generator
+# By fjbenitez@uc.cl
+#
 
 {
 
