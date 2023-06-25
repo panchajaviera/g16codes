@@ -1,7 +1,7 @@
-#Moidificado por Fran el 7 de octubre,2021
-# Para correr el programa:
-# $ awk -f script.awk <archivo_de_entrada> archivo_de_salida
-# Archivo para extraer datos de energias, orbitales moleculares frontera proveniente de Single Point
+# writen on awk program language
+# Archivo para extraer datos de energía de dispersión de sp_generator o sp_generator_counterpoise
+# Modified by fjbenitez@uc.cl
+#
 
 {
   if ($1=="R6Disp:" && $2=="Grimme-D3(BJ)") 
