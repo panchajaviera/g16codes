@@ -1,6 +1,6 @@
 # written on awk program language
-# Archivo para extraer datos de energias, orbitales moleculares frontera proveniente de sp_generator o sp_generator counterpoise by vcntquc.cl
-# Moodified by fjbenitez@uc.cl
+# Archivo para extraer datos de energias, orbitales moleculares frontera proveniente de sp_generator o sp_generator counterpoise by vcnt@qtc.cl
+# Modified by fjbenitez@uc.cl
 #
 
 BEGIN{K=1}
