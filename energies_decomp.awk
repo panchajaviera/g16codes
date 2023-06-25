@@ -1,7 +1,6 @@
 #Moidificado por Fran el 7 de octubre,2021
-# Para correr el programa:
-# $ awk -f script.awk <archivo_de_entrada> archivo_de_salida
-# Archivo para extraer datos de energias, orbitales moleculares frontera proveniente de Single Point
+# writen on awk program language
+# Archivo para extraer datos de energías obtenidos a partir de IOp (3/74)=-5
 
 BEGIN{K=1}
 
